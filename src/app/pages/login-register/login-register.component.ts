@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginRegisterComponent implements OnInit {
 
+  //ตัวแปร
+  message:string = "Hello Angular";
   constructor() { }
 
   ngOnInit(): void {
